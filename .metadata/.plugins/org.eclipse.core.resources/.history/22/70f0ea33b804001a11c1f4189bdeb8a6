@@ -1,0 +1,32 @@
+class Book{
+	String author;
+	int pages;
+	String title;
+	
+	public Book(){
+		this("",0,"");
+	}
+	
+	public Book(String author, int pages, String title){
+		this.author=author;
+		this.pages=pages;
+		this.title=title;
+	}
+	
+	public Book(String title){
+		this.title=title;
+		this.author="";
+		this.pages=0;
+	}
+}
+public class ConstructorTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

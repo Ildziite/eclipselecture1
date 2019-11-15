@@ -1,0 +1,25 @@
+class DrivingRule{
+	private String name;
+	private String description;
+	private static String country="Latvia";
+	private static final int cityMaxSpeed=50;
+	private static final int outMaxSpeed=90;
+	
+	public DrivingRule() {
+		this("", "");
+	}
+
+	public DrivingRule(String name, String description) {
+		this.name = name;
+		this.description = description;
+	}
+	
+}
+public class StaticFinal {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

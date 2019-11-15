@@ -1,0 +1,29 @@
+class Pupil {
+	int age;
+	int form;
+	String name;
+	public Pupil(){
+		this.age=7;
+		this.form=1;
+	}
+	
+	String output(){
+		return System.out.println("Name: "+name+" age: "+age+" form: "+form);
+	}
+
+}
+
+public class ConstructorExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Pupil.pupil1 = new Pupil();
+		
+		
+
+	}
+
+}
