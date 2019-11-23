@@ -136,8 +136,8 @@ public class Practice {
 		return average;
 	}
 
-	public static int getMaxValue(int[] someArray) {
-		int max = someArray[0];
+	public static double getMaxValue(int[] someArray) {
+		double max = someArray[0];
 		for (int i = 1; i < someArray.length; i++) {
 			if (max < someArray[i]) {
 				max = someArray[i];
