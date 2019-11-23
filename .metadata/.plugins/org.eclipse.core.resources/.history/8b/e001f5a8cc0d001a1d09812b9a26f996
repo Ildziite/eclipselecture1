@@ -146,7 +146,7 @@ public class Practice {
 		}
 		return max;
 	}
-
+	
 	public static double getAvaregeDouble(int[] someArray) {
 		int sum = 0;
 		for (int i = 0; i < someArray.length; i++) {
