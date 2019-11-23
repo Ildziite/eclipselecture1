@@ -117,8 +117,8 @@ public class Practice {
 	}
 
 	public static void printArray(int[] someArray) {
-		int index = 0;
-		for (int element : someArray) {
+		int index=0;
+		for(int element:someArray){
 			System.out.println(index + " element is " + element);
 			index++;
 		}
