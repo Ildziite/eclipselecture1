@@ -1,0 +1,23 @@
+class Point {
+	int x;
+	int y;
+
+	void getCoordinates(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	public String toString(){
+		return this.x+":"+this.y;
+	}
+	
+}
+
+public class PointTask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

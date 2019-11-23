@@ -108,7 +108,7 @@ public class Factory2 {
 
 		f1.bankrupt();
 		f1.output();
-		f1.hireNewWorker("asdasd");
+		f1.hireNewWorker("asdas");
 
 	}
 

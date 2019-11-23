@@ -1,0 +1,15 @@
+public class StaticMethodTask {
+
+	public static void main(String[] args) {
+		String argString="";
+	//	for(String arg: args){
+	//		argString=argString+arg;
+	//		System.out.println(arg);
+	//	}
+		for(int i=0;i<args.length;i++){
+			argString=argString+args[i];
+			//		System.out.println(arg);
+		}
+		System.out.println(argString);
+	}
+}

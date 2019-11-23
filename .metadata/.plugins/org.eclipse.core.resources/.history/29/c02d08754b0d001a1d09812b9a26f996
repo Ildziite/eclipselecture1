@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Starter {
+
+	public static void main(String[] args) {
+		int[] arrys = new int[3];
+		System.out.println(arrys.length);
+		arrys[0] = 1;
+		System.out.println(Arrays.toString(arrys));
+		
+		ArrayList<String> arrayList=new ArrayList<>();
+		arrayList.add("Volvo");
+		arrayList.add("Lada");
+		arrayList.add("Tesla");
+		arrayList.add("Skoda");
+		arrayList.add("Bmw");
+		System.out.println(arrayList.size());
+		arrayList.remove(1);
+		System.out.println(arrayList.size());
+	}
+}

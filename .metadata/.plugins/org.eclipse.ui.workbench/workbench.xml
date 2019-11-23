@@ -37,6 +37,7 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
@@ -65,13 +66,17 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lecture10/src/StaticFinal.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="784" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StaticFinalTask.java" partName="StaticFinalTask.java" path="/home/student/workspace/lecture10/src/StaticFinalTask.java" title="StaticFinalTask.java" tooltip="lecture10/src/StaticFinalTask.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StaticFinalTask.java" partName="StaticFinalTask.java" path="/home/student/workspace/lecture10/src/StaticFinalTask.java" title="StaticFinalTask.java" tooltip="lecture10/src/StaticFinalTask.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lecture10/src/StaticFinalTask.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="787" selectionTopPixel="354"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StaticExcample.java" partName="StaticExcample.java" path="/home/student/workspace/lecture8/src/StaticExcample.java" title="StaticExcample.java" tooltip="lecture8/src/StaticExcample.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lecture8/src/StaticExcample.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClassNew.java" partName="ClassNew.java" path="/home/student/workspace/lecture11/src/ClassNew.java" title="ClassNew.java" tooltip="lecture11/src/ClassNew.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lecture11/src/ClassNew.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="192" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -109,11 +114,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (10 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="485" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -333,16 +333,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture10/src/StaticFinal.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture10/src/StaticFinalTask.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture8/src/StaticExcample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture11/src/ClassNew.java"/>
 </editors>
-<item historyLabel="ConstructorExample.java" index="1">
-<position info="not_deleted" x="130" y="0"/>
-</item>
-<item historyLabel="ConstructorTask.java" index="2">
-<position info="not_deleted" x="89" y="0"/>
-</item>
-<item historyLabel="ConstructorTask.java" index="2">
-<position info="not_deleted" x="87" y="0"/>
-</item>
 <item historyLabel="ConstructorTask.java" index="2">
 <position info="not_deleted" x="985" y="0"/>
 </item>
@@ -481,8 +473,17 @@
 <item historyLabel="StaticExcample.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="StaticFinalTask.java" index="6">
+<item historyLabel="StaticFinalTask.java" index="6">
 <position info="not_deleted" x="787" y="1"/>
+</item>
+<item historyLabel="ClassNew.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ClassNew.java" index="8">
+<position info="not_deleted" x="194" y="0"/>
+</item>
+<item active="true" historyLabel="ClassNew.java" index="8">
+<position info="not_deleted" x="144" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -501,6 +502,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClassNew.java" tooltip="lecture11/src/ClassNew.java">
+<persistable path="/lecture11/src/ClassNew.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StaticExcample.java" tooltip="lecture8/src/StaticExcample.java">
 <persistable path="/lecture8/src/StaticExcample.java"/>
 </file>
@@ -542,9 +546,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Task3.java" tooltip="lecture6/src/Task3.java">
 <persistable path="/lecture6/src/Task3.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Task2.java" tooltip="lecture6/src/Task2.java">
-<persistable path="/lecture6/src/Task2.java"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,13 @@
+public class Starter {
+
+	public static void main(String[] args) {
+		int[] arrys = new int[3];
+
+		System.out.println(arrys.length);
+
+		arrys[0] = 1;
+		
+		System.out.println(arrys[0]);
+	}
+
+}

@@ -1,0 +1,35 @@
+class Point {
+	int x;
+	int y;
+	static int MAX_X = 10;
+	static int MAX_Y = 10;
+
+	public Point() {
+		this(0, 0);
+	}
+
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	public String toString() {
+		return this.x + ":" + this.y;
+	}
+
+}
+
+public class PointTask {
+
+	public static void main(String[] args) {
+		Point middlepoint = new Point(1, 1);
+		Point startpoint = new Point(4, 2);
+		Point endpoint = new Point(9, 9);
+		
+		System.out.println(startpoint.toString());
+		System.out.println(middlepoint.toString());
+		System.out.println(endpoint.toString());
+
+	}
+
+}

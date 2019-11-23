@@ -1,0 +1,54 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Starter {
+	
+	public static void main(String[] args) {
+		int[] arrys = new int[3];
+		System.out.println(arrys.length);
+		arrys[0] = 1;
+		System.out.println(Arrays.toString(arrys));
+
+		ArrayList<String> arrayList = new ArrayList<>();
+		arrayList.add("Volvo");
+		arrayList.add("Lada");
+		arrayList.add("Tesla");
+		arrayList.add("Skoda");
+		arrayList.add("Bmw");
+		arrayList.add("Volvo");
+		arrayList.add("Lada");
+		arrayList.add("Tesla");
+		arrayList.add("Skoda");
+		arrayList.add("Bmw");
+		arrayList.set(1, "Audi");
+		System.out.println(arrayList.size());
+		printArrayList(arrayList);
+		arrayList.remove(1);
+		System.out.println(arrayList.size());
+		System.out.println(arrayList.get(0));
+		System.out.println(arrayList.get(1));
+
+		System.out.println(arrayList.get(1));
+
+		printArrayList(arrayList);
+
+		for (String element : arrayList) {
+			System.out.print(element + " ");
+		}
+		System.out.println();
+		ArrayList<Double> arrayListInt = new ArrayList<>();
+		arrayListInt.add(1123.23);
+		printArrayListDouble(arrayListInt);
+	}
+	
+	public static void printArrayList(ArrayList<String> arrayL) {
+		for (int i = 0; i < arrayL.size(); i++) {
+			System.out.println("Element " + i + " is " + arrayL.get(i));
+		}
+	}
+	public static void printArrayListDouble(ArrayList<Double> arrayL) {
+		for (int i = 0; i < arrayL.size(); i++) {
+			System.out.println("Element " + i + " is " + arrayL.get(i));
+		}
+	}
+}
