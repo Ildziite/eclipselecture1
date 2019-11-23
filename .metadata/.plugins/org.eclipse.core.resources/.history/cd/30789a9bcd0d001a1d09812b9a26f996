@@ -166,7 +166,9 @@ public class Practice {
 			int element = input.nextInt();
 			Array[i] = element;
 		}
+
 		return Array;
+		input.close();
 	}
 
 }

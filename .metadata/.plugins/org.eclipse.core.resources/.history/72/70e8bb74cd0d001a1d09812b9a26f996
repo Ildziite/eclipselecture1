@@ -1,7 +1,5 @@
 package com.accenture.lecture13;
 
-import java.util.Scanner;
-
 public class Practice {
 
 	public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class Practice {
 			myArrays[i] = i * 2;
 
 		}
-		myArrays[1] = 1;
+		myArrays[1]=1;
 
 		// Task 0 - move "Hello world" output into method sayHi() and call it
 		// twice
@@ -77,7 +75,7 @@ public class Practice {
 		// 1 element is 6
 		// 2 element is 7
 		int[] myIntegers = getArrayDefinedByUser(3);
-		printArray(myIntegers);
+		// printArray(myIntegers);
 
 		// Task 6 - make sure getAvarege() and getAvaregeDouble() methods uses
 		// getSum() method
@@ -154,19 +152,14 @@ public class Practice {
 		for (int i = 0; i < someArray.length; i++) {
 			sum = sum + someArray[i];
 		}
-		double average = (double) sum / someArray.length;
+		double average = (double)sum / someArray.length;
 		return average;
 	}
 
 	public static int[] getArrayDefinedByUser(int numbers) {
-		Scanner input = new Scanner(System.in);
-		int[] Array = new int[numbers];
 		System.out.println("Enter " + numbers + "thy:");
-		for (int i = 0; i < numbers; i++) {
-			int element = input.nextInt();
-			Array[i] = element;
-		}
-		return Array;
+		// TODO implement method, according to requirements of Task 8
+		return null;
 	}
 
 }
