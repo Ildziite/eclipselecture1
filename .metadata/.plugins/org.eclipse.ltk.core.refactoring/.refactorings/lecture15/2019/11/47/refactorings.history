@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.accenture.lecture15&apos; to &apos;BigProject/src&apos;&#x0A;- Original project: &apos;lecture15&apos;&#x0A;- Destination element: &apos;BigProject/src&apos;&#x0A;- Original element: &apos;lecture15/src/com.accenture.lecture15&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=BigProject/src" element1="/src&lt;com.accenture.lecture15" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1574502322897" version="1.0"/>
+</session>
