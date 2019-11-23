@@ -1,0 +1,17 @@
+package com.accenture.lecture13;
+
+
+String country;
+String city;
+
+public class Practice2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
